@@ -76,13 +76,5 @@ public class CraiglistStepdefs {
         HousingPage.upcoming().shouldBe(visible);
         HousingPage.relevant().shouldBe(visible);
     }
-//
-//    @And("^add predefined text in search field$")
-//    public void addReviewData() throws Throwable {
-//        HousingPage = new HousingPage();
-//        HousingPage.openHousingPage();
-//        HousingPage.addTextInSearch(ApplicationProperties.getString(TEST_DATA));
-//    }
-//
 }
 

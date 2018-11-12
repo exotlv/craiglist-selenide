@@ -1,11 +1,7 @@
 package lv.sikhvart.cucumber.pageobjects.craiglist;
 
-
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -56,35 +52,5 @@ public class HousingPage {
         inputField().val(textToSearchFor).pressEnter();
 
     }
-//    public void checkHighPrice() {
-//        WebElementHelper.click(dropdown);
-//        WebElementHelper.waitForVisibility(priceHigh);
-//        WebElementHelper.click(priceHigh);
-//        WebElementHelper.waitForVisibility(highPriceSorting);
-//    }
-//
-//    public void checkLowestPrice() {
-//        WebElementHelper.click(dropdown);
-//        WebElementHelper.waitForVisibility(priceLow);
-//        WebElementHelper.click(priceLow);
-//        WebElementHelper.waitForVisibility(lowestPriceSorting);
-//    }
-//
-//    public void addTextInSearch(String text) {
-//        WebElementHelper.waitForVisibility(searchField);
-//        WebElementHelper.sendKeys(searchField, text);
-//        WebElementHelper.click(searchIcon);
-//    }
-//
-//    public void checkDropdownAfterSearch() {
-//        WebElementHelper.waitForVisibility(dropdown);
-//        WebElementHelper.click(dropdown);
-//        WebElementHelper.waitForVisibility(newest);
-//        WebElementHelper.waitForVisibility(priceLow);
-//        WebElementHelper.waitForVisibility(priceHigh);
-//        WebElementHelper.waitForVisibility(relevant);
-//        WebElementHelper.waitForVisibility(upcoming);
-//    }
-
 }
 
