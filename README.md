@@ -9,7 +9,8 @@ CucumberJVM template project using [Selenide](http://selenide.org/) framework fo
     * More on this read [here](http://automationrhapsody.com/running-cucumber-tests-in-parallel/).
 ### Command for execution
 ```
-mvn clean verify -P [singleThreaded,nogrid,grid,parallel,parallelPlugin]
+mvn clean verify -P nogrid -Dbrowser=chrome
+
 ```
 * Maven profiles:
     * *singleThreaded* - execute tests sequentially, omits parallel execution
